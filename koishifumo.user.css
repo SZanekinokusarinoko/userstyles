@@ -10,7 +10,6 @@
 @-moz-document domain("projectstem.org") {
 
 /*Import fonts (Space Mono for Code, Comic Neue in case Comic Sans isn't installed)*/
-
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*
@@ -146,7 +145,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         border: 1px solid #B5D5FF;
 }
 
-/*Syntax Highlighting*/
+/*Syntax Highlighting taken from kuanyui's "moe-theme" for emacs*/
 .ace-xcode .ace_constant.ace_language, .ace-xcode .ace_meta, .ace-xcode .ace_variable.ace_language {
         color: #ffd700;
 }

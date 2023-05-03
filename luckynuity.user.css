@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           Luckynuity⭐
-@namespace      ない
-@author         RA7P0STX0R
+@namespace      https://userstyles.world/user/SZanekinokusarinoko
+@version        2023.05.03
+@license        CC BY-SA 2.0
 @description    Edgenuity if it was a syringe of 2011 "kawaii~" injected directly into your veins. Characters are Konata Izumi and Kagami Hiiragi from Lucky Star.
-@version        2023.2.3
-@license        CC BY-SA 4.0
+@author         SZ姉貴の鎖鋸
 @preprocessor   default
 ==/UserStyle== */
 
@@ -19,7 +19,7 @@
 html, body, input {
 	font-family: 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	background-image: url(https://iili.io/HVR0tMG.png);
-	no-repeat center fixed;
+        background-position: center ;
 	background-size: cover;
 	width: auto;
 	height: auto;
@@ -50,10 +50,10 @@ div {
 	font-size: 12pt;
 }
 
-
 /*
  * GUI
  */
+ 
 .mainhead, .mainhead a, .navbar.edgenuity {
 	background-color: #6afc6d;
 	color: #B02767;
@@ -70,7 +70,7 @@ em {
 
 .home-page-background {
 	background: url(https://iili.io/HVR0Zns.png);
-	no-repeat center fixed;
+        background-position:  center fixed;
 	background-size: cover;
 	width: auto;
 	height: auto;
@@ -91,7 +91,7 @@ em {
 	opacity: 88%;
 }
 
-.overlay-description, {
+.overlay-description {
 	color: #ffffef;
 }
 
@@ -137,7 +137,6 @@ thspan {
 	color: black;
 }
 
-
 /*
  * Buttons
  */
@@ -169,7 +168,7 @@ a.plainbtn.alt.icon, button.plainbtn.alt.icon, .plainbtn.alt.icon {
 }
 
 .uibtn.uibtn-arrow-next {
-	background-color: ##5e4ab0;
+	background-color: #5e4ab0;
 	color: #e2cfc1;
 }
 
@@ -192,7 +191,6 @@ button, .overlay-previous, .overlay-next, .overlay-attempts, .overlay-attempt-cl
 	/*More Custom Icons Sheets*/
 	background: transparent url(https://iili.io/HWC6R5B.png) no-repeat;
 	background-position: -162px -90px;
-}
 }
 
 .tools-calc1, .tools-fly-active, .tools-res2, .tools-res3, .tools-calc4, .tools-headphones2, .tools-calc2, .tools-calc5, .tools-calc3, .tools-headphones3, .tools-highlight1, .tools-fly-inactive, .tools-headphones4, .tools-res4, .tools-res1, .tools-headphones1, .tools-highlight, .tools-chat, [class*="tools-"] {

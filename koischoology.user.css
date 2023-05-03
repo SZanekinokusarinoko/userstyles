@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           koish fumo
+@name           koishi fumo
 @namespace      https://userstyles.world/user/SZanekinokusarinoko
 @version        2023.05.03
 @license        CC BY-SA 2.0
@@ -21,7 +21,6 @@
 	--sgy-font-mono-space: 'Courier New', Courier, monospace;
 	--sgy-font-cursive: cursive;
 	--sgy-background-color-default: #eee8d5;
-        
 }
 
 body a, body .clickable, body .smart-box .filter-block li a, body #content-left-top .item-list li a, body .popups-tab, body .enrollment-filters span, body .grading-groups-list .grading-group, body #grading-group-create:hover, .page-title a {

@@ -1,6 +1,6 @@
 /* ==UserStyle==
-@name           koishi fumo
-@namespace      https://www.youtube.com/watch?v=RClJ8z6y58U
+@name           koish fumo
+@namespace      https://userstyles.world/user/SZanekinokusarinoko
 @version        2023.05.03
 @license        CC BY-SA 2.0
 @description    ᗜˬᗜ
@@ -21,6 +21,7 @@
 	--sgy-font-mono-space: 'Courier New', Courier, monospace;
 	--sgy-font-cursive: cursive;
 	--sgy-background-color-default: #eee8d5;
+        
 }
 
 body a, body .clickable, body .smart-box .filter-block li a, body #content-left-top .item-list li a, body .popups-tab, body .enrollment-filters span, body .grading-groups-list .grading-group, body #grading-group-create:hover, .page-title a {
@@ -51,4 +52,3 @@ body {
 }
 
 }
-

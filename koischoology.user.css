@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           koish fumo
+@namespace      https://userstyles.world/user/SZanekinokusarinoko
+@version        2023.05.03
+@license        CC BY-SA 2.0
+@description    ᗜˬᗜ
+@author         SZ姉貴の鎖鋸
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("schoology.com") {
+
+/*Import Fonts (Comic Neue in case Comic Sans isn't installed)*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+        /*Variables for Fonts, blame Schoology*/
+	--sgy-font-default: 'Comic Sans MS', 'Comic Neue', cursive;
+	--sgy-font-light: 'Comic Sans MS', 'Comic Neue', cursive;
+	--sgy-font-bold: 'Comic Sans MS', 'Comic Neue', cursive;
+	--sgy-font-mono-space: 'Courier New', Courier, monospace;
+	--sgy-font-cursive: cursive;
+	--sgy-background-color-default: #eee8d5;
+        
+}
+
+body a, body .clickable, body .smart-box .filter-block li a, body #content-left-top .item-list li a, body .popups-tab, body .enrollment-filters span, body .grading-groups-list .grading-group, body #grading-group-create:hover, .page-title a {
+        color:  #2aa198;
+}
+
+.app-link-wrapper .app-link, body:not(.is-detail-layout) #left-nav #menu-s-main .menu .menu a.active, body:not(.is-detail-layout) #sidebar-left #left-nav .menu .expanded.active-trail .active-trail-dist-1 a, body:not(.is-detail-layout) #sidebar-left #left-nav .menu .expanded.active-trail .menu .active-trail-dist-2 a, body:not(.is-detail-layout) #sidebar-left .active-trail a, body:not(.is-detail-layout) #sidebar-left .menu .expanded.active-trail a.active {
+        color:  #E06B00;
+}
+
+.has-folder-player #center-top .content-top-upper, .has-materials-player #center-top .content-top-upper {
+        background: none;
+}
+        
+body {
+	background-image: url(https://iili.io/HN4eDKB.jpg);
+	background-size: 32%;
+        color:  #657b83;
+}
+
+.has-right-col #main-inner {
+        background: none;
+}
+
+#main-content-wrapper, .has-right-col #center-top {
+        background-size: 22%;
+        opacity: 88%;
+}
+
+}
+

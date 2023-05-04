@@ -1,0 +1,158 @@
+/* ==UserStyle==
+@name           Capynuity
+@namespace      https://userstyles.world/user/SZanekinokusarinoko
+@version        2023.05.03
+@license        CC BY-SA 2.0
+@description    Edgenuity, with a heavy dose of Capybaras.
+@author         SZ姉貴の鎖鋸
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("edgenuity.com") {
+        
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+ * Text
+ */
+ 
+html, body, input {
+	font-family: 'Golos Text', system-ui, sans-serif;
+	background-image: url(https://iili.io/HWwP61j.jpg);
+	background-position: center fixed;
+	background-size: cover;
+	width: auto;
+	height: auto;
+}
+
+#activity-title, #activity-status {
+	color: #B2C8D9;
+}
+
+.mainhead, .mainhead a, .course-grade-percent, .course-grade-text, .btn:not(:disabled):not(.disabled) {
+	font-family: 'Golos Text', system-ui, sans-serif;
+	font-size: 10pt;
+}
+
+h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link {
+	font-family: 'Golos Text', system-ui, sans-serif;
+	font-size: 11pt;
+	color: black;
+}
+
+.answer-choice-label, label.answer-choice-label, p, textarea, .QuestionTextArea, textarea.disabled, element.style, span {
+	font-family:  'Atkinson Hyperlegible', 'Golos Text', system-ui, sans-serif;
+	font-size: 12pt;
+}
+
+div {
+	font-family: 'Golos Text', system-ui, sans-serif;
+	font-size: 11pt;
+}
+
+/*
+ * GUI
+ */
+ 
+.mainhead, .mainhead a, .navbar.edgenuity {
+	background-color: #908E88;
+	color: #252632;
+	opacity: 87%
+}
+
+em {
+	color: black;
+}
+
+.Toolbar .FramesList li.FrameCurrent a {
+	background-color: #B2A892;
+	color: #172026;
+}
+
+.home-page-background {
+	background: url(https://iili.io/HWwP4qb.jpg);
+	background-position: center fixed;
+        background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: auto;
+}
+
+.footer li, .footer p {
+	font-family: 'Golos Text', system-ui, sans-serif;
+}
+
+#lesson-title {
+	color:#A8BDCD;
+}
+
+.overlay-background, .av-container, .overlay-container, .overlay-body {
+	background-color: #324C5E;
+	color: #2E2E2E;
+	border-radius: 12px;
+}
+
+.overlay-description {
+	color: #9FB4BE;
+}
+
+.mainfoot {
+	background-color: #9FB4BE;
+	color: #513F34;
+	opacity: 87%;
+}
+
+thspan {
+	color: #262626;
+}
+
+.question-container, .content, #frameArea, .card, .sle-card.card, .course-cards .card {
+	background-color: #B2A892;
+	color: #172026;
+}
+
+.bottom-tray.gradient-Divider {
+	background-color: #B2A892;
+	color: #172026;
+}
+
+/*
+ * Login Page
+ */
+ 
+.css-1chghgk, .loginLinesColor, .modernWelcomeBackground {
+	display: none;
+}
+
+.css-1nd7l03, .css-59bg5g, h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link {
+	font-family: 'Golos Text', system-ui, sans-serif;
+	color: #DBD8CE;
+}
+
+.css-o4qvae, .css-18zhmu4 {
+	font-family: 'Atkinson Hyperlegible', 'Golos Text', system-ui, sans-serif;
+	font-size: 12pt;
+}
+
+.css-a9csq5 {
+	background-color: #FFF0D1;
+	color: black;
+}
+
+.css-147aycu {
+	font-family: 'Golos Text', system-ui, sans-serif;
+	color: #DBD8CE
+}
+
+/*
+ * Buttons
+ */
+ 
+.overlay-attempt-button-start, .overlay-attempt-button-lock {
+	/*Custom Icon Spritesheet Needed to Change Icons*/
+	background-image: url(https://iili.io/HW64A8P.png)
+}
+        
+}

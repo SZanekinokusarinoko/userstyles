@@ -1,0 +1,266 @@
+/* ==UserStyle==
+@name           Solarized-Dark
+@namespace      https://userstyles.world/user/SZanekinokusarinoko
+@version        2023.05.04
+@license        CC BY-SA 2.0
+@description    The famous/ubiquitous solarized theme, now on ProjectSTEM!
+@author         SZ姉貴の鎖鋸
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("projectstem.org") {
+/*Import fonts (JetbrainsMono for code, Inter for everything else)*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+ * General UI
+ */
+
+.ic-app-header__logomark {
+	display: none;
+}
+
+body, #breadcrumbs > ul > li, .ic-Dashboard-header__layout {
+	background: #002b36;
+}
+
+.ic-app-header__main-navigation, .btn, .Button, .ui-button, .header-bar, .ic-DashboardCard__header_content, .ic-app-header__menu-list-link.ic-app-header__menu-list-link--nav-toggle {
+	background: #073642;
+}
+
+.ic-DashboardCard__action-container {
+	background: #073642;
+	margin-top: 0;
+}
+
+.ui-datepicker .ui-datepicker-time,
+.ui-dialog .ui-dialog-buttonpane {
+	background-color: #f2f2f2;
+}
+
+a {
+	color: #268bd2;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+p {
+	color: #657b83;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #586e75;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.ic-app-main-content div.context_module, .module-sequence-footer .module-sequence-footer-content {
+	background-color: #002b36;
+}
+
+.item-group-condensed .ig-row, .item-group-condensed .ig-header {
+	background-color: #073642;
+}
+
+.context_module .icon-minimize {
+	color: #dc322f;
+}
+
+code, pre, .o-cr-instructions pre {
+        background-color: #002b36;
+        color: #657b83;
+        font: 12px/normal 'JetBrains Mono', 'Inconsolas', 'Consolas', monospace;
+        font-family: 'JetBrains Mono', 'Inconsolas', 'Consolas', monospace;
+}
+
+.quiz-submission, .question_editing {
+        background-color: #002b36;
+        color: #657b83;
+}
+
+.question .text, #questions.assessment_results .question .header {
+        background-color: #002b36;
+        color: #657b83;
+}
+
+/*
+ * Color Variables
+ */
+
+:root {
+        --fOyUs-fontFamily: 'Inter', 'Segoe UI', sans-serif;
+        --fOyUs-color: #544E5B;
+        --fOyUs-colorPrimaryInverse: #eee8d5;
+        --fOyUs-borderStyle: solid;
+        --fOyUs-borderColorPrimary: #C7CDD1;
+        --fOyUs-borderColorSecondary: #6B7780;
+        --fOyUs-borderColorSuccess: #859900;
+        --fOyUs-borderColorBrand: #2aa198;
+        --fOyUs-borderColorInfo: #2aa198;
+        --fOyUs-borderColorAlert: #BF32A4;
+        --fOyUs-borderColorWarning: #cb4b16;
+        --fOyUs-borderColorDanger: #dc322f;
+        --fOyUs-borderColorTransparent: transparent;
+        --fOyUs-borderRadiusSmall: 0.125rem;
+        --fOyUs-borderRadiusMedium: 0.25rem;
+        --fOyUs-borderRadiusLarge: 0.5rem;
+        --fOyUs-debugOutlineColor: #dc322f;
+        --fOyUs-backgroundPrimary: #002b36;
+        --fOyUs-backgroundSecondary: #073642;
+        --fOyUs-backgroundPrimaryInverse: #2D3B45;
+        --fOyUs-backgroundBrand: #2aa198;
+        --fOyUs-backgroundInfo: #2aa198;
+        --fOyUs-backgroundAlert: #d33682;
+        --fOyUs-backgroundSuccess: #859900;
+        --fOyUs-backgroundDanger: #dc322f;
+        --fOyUs-backgroundWarning: #cb4b16;
+        --fOyUs-arrowSize: 0.5rem;
+        --fOyUs-focusOutlineStyle: solid;
+        --fOyUs-focusOutlineWidth: 0.125rem;
+        --fOyUs-focusOutlineOffset: 0.3125rem;
+        --fOyUs-focusOutlineInset: 0rem;
+        --fOyUs-focusColorInfo: #2aa198;
+        --fOyUs-focusColorDanger: #dc322f;
+        --fOyUs-focusColorSuccess: #859900;
+        --fOyUs-focusColorInverse: #FFFFFF;
+}
+
+/*
+ * Code Editor/IDE
+ */
+
+.ace_editor {
+        font: 12px/normal 'JetBrains Mono', 'Inconsolas', 'Consolas', monospace;
+        font-family: 'JetBrains Mono', 'Inconsolas', 'Consolas', monospace;
+}
+
+.ace-xcode .ace_gutter {
+        background: #073642;
+        color: #657b83
+}
+
+.ace-xcode .ace_print-margin {
+        width: 1px;
+        background: #073642;
+}
+
+.ace-xcode {
+        background-color: #002b36;
+        color: #657b83;
+}
+
+.ace-xcode .ace_cursor {
+        color: #657b83;
+}
+
+.ace-xcode .ace_marker-layer .ace_selection {
+        background: #B5D5FF
+}
+
+.ace-xcode.ace_multiselect .ace_selection.ace_start {
+        box-shadow: 0 0 3px 0px #FFFFFF;
+}
+
+.ace-xcode .ace_marker-layer .ace_step {
+        background: rgb(198, 219, 174)
+}
+
+.ace-xcode .ace_marker-layer .ace_bracket {
+        margin: -1px 0 0 -1px;
+        border: 1px solid #BFBFBF
+}
+
+.ace-xcode .ace_marker-layer .ace_active-line {
+        background: rgba(0, 0, 0, 0.071)
+}
+
+.ace-xcode .ace_gutter-active-line {
+        background-color: rgba(0, 0, 0, 0.071)
+}
+
+.ace-xcode .ace_marker-layer .ace_selected-word {
+        border: 1px solid #B5D5FF
+}
+
+.ace-xcode .ace_constant.ace_language,
+.ace-xcode .ace_keyword,
+.ace-xcode .ace_meta,
+.ace-xcode .ace_variable.ace_language {
+        color: #dc322f;
+}
+
+.ace-xcode .ace_invisible {
+        color: #BFBFBF
+}
+
+.ace-xcode .ace_constant.ace_character,
+.ace-xcode .ace_constant.ace_other {
+        color: #b58900
+}
+
+.ace-xcode .ace_constant.ace_numeric {
+        color: #6c71c4;
+}
+
+.ace-xcode .ace_entity.ace_other.ace_attribute-name,
+.ace-xcode .ace_support.ace_constant,
+.ace-xcode .ace_support.ace_function {
+        color: #2aa198;
+}
+
+.ace-xcode .ace_fold {
+        background-color: #859900;
+        border-color: #657b83;
+}
+
+.ace-xcode .ace_entity.ace_name.ace_tag,
+.ace-xcode .ace_support.ace_class,
+.ace-xcode .ace_support.ace_type {
+        color:  #2aa198;
+}
+
+.ace-xcode .ace_storage {
+        color: #859900;
+}
+
+.ace-xcode .ace_string {
+        color: #268bd2;
+}
+.ace-xcode .ace_comment {
+        color: #586e75;
+}
+
+.ace-xcode .ace_indent-guide {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==) right repeat-y
+}
+
+/*
+ * Terminal
+ */
+
+.o-cr-terminal {
+        background-color: #002b36;
+        color: #657b83;
+}
+
+.u-cr-txt--terminal-output {
+	font: 12px/normal 'JetBrains Mono', 'Inconsolas', 'Consolas', monospace;
+        font-family: 'JetBrains Mono', 'Inconsolas', 'Consolas', monospace;
+}
+
+.o-cr-codepane__header {
+	background: #073642;
+}
+
+.o-cr-tabs__tab {
+	background: #073642;
+}
+
+.o-cr-tabs__tab--selected, .u-cr-padding--small, .o-cr-resizer, .o-cr-tabs__tab-panel--selected {
+	background: #002b36;
+}
+
+.o-cr-instructions, .o-cr-runcode, .o-cr-callout, .o-cr-submission-status, .o-cr-testcase, .o-cr-version, .o-cr-version__grades, .u-cr-block--bordered, .o-cr-row--row {
+	background: #073642;
+}
+
+}
+

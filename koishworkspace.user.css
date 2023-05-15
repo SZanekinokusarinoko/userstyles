@@ -1,0 +1,290 @@
+/* ==UserStyle==
+@name           KoishWorkspace
+@namespace      https://userstyles.world/user/SZanekinokusarinoko
+@version        2023.05.15
+@description    ᗜˬᗜ
+@author         SZ姉貴の鎖鋸
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("google.com") {
+
+/*Import Fonts (Comic Neue in case Comic Sans isn't installed)*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*Menubars*/
+body
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.docs-menubar
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.docs-gm .goog-toolbar-combo-button-input
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.docs-title-input
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.docs-title-widget
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+:root
+{
+        --docs-material-header-font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+        --docs-material-font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*
+ * Google Docs Unique
+ */
+
+/*Background*/
+.left-sidebar-container-content
+{
+        background-image: url(https://iili.io/HN4eDKB.jpg);
+        background-size: contain;
+}
+
+.kix-rotatingtilemanager
+{
+        background-image: url(https://iili.io/HUTHzss.gif);
+        background-size: 15%;
+}
+
+/*
+ * Google Slides Unique
+ */
+
+/*Background*/
+#workspace-container
+{
+        background-image: url(https://iili.io/HUTHzss.gif);
+        background-size: 20%;
+}
+
+/*Slide Display on Left*/
+.punch-filmstrip-scroll
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+        background-image: url(https://iili.io/HN4eDKB.jpg);
+        background-size: contain;
+}
+
+/*
+ * Google Drive Unique
+ */
+
+/*Background*/
+.lVcy9.s55KNe, .lVcy9
+{
+        background-image: url(https://iili.io/HUTHxXn.gif);
+        background-size: 53%;
+}
+
+/*Sidebar*/
+.a-da-Mf-B-lc
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+        background-image: url(https://iili.io/HO2NW2p.gif);
+        background-size: contain;
+}
+
+/*Sidebar Text*/
+.a-s-T
+{
+        color: #e06b00;
+}
+
+.ZHllM
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+        background-image: url(https://iili.io/HN4eDKB.jpg);
+        background-size: 95%;
+}
+
+/*Top Searchbar*/
+gb_Sd gb_9d gb_Zd
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*Top Searchbar Text*/
+.XV0XSd .a-l-Ba .h-R-w-d.a-l-S-Pc-w-d
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.XV0XSd .a-l-Ba .a-s-Ba-ic .a-s-Ba-ic, .XV0XSd .a-l-Ba .a-s-Ba-dj .a-s-Ba-dj
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*Filename + Foldernames*/
+.s55KNe .jGNTYb .bSmy5
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.s55KNe .bSmy5
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+XV0XSd
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*File and Folder Buttons*/
+.s55KNe .jGNTYb
+{
+        opacity: 75%;
+}
+
+/* 
+ * Gmail Unique
+ */
+
+/*Default eMail Text*/
+.gb_ab:not(.gb_qd)
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*UI Text*/
+.TO .nU > .n0, .TO.NQ .nU > .n0, .TO.nZ .nU > .n0, .ah9 > .CJ, .n3 > .CL > .CK, .byl .TK .TO.nZ > .aHS-bnt .n0, .TK .nZ > .aHS-bnt .bsU, .byl .TK .nZ.aS3 .nU > .n0, .TK .nZ.aS3 .bsU, .byl .TK .nZ.aS4 .nU > .n0, .TK .nZ.aS4 .bsU, .byl .TK .nZ.aS5 .nU > .n0, .TK .nZ.aS5 .bsU, .byl .TK .nZ.aS6 .nU > .n0, .TK .nZ.aS6 .bsU, .TK .TO.nZ .nU > .n0, .TK .ol.NQ .nU > .n0, .TK .TO.ol .nU > .n0, .TK .nZ .bsU, .TK .ol .bsU, .gb_3e, .z0 > .L3
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+        color: #e06b00;
+}
+
+/*Left Side Background*/
+.Xr .V3, .aam
+{
+        background-image: url(https://iili.io/HUTHzss.gif);
+        background-size: contain;
+}
+
+/*Right Side Background*/
+.nH.aUx
+{
+        background-image: url(https://iili.io/HUTHzss.gif);
+        background-size: contain;
+}
+
+/*Compose Button*/
+div.aic
+{
+        background-image: url(https://iili.io/HN4eDKB.jpg);
+        background-size: 99%;
+}
+
+/*
+ * Google Search
+ */
+
+/*Text*/
+div, .ss6qqb .PyJv1b, .yKMVIe, .ss6qqb .wx62f, .WGvvNb, .iPukc .gadasb, .UwAaac, .rwGmGe, .VlHyHc, .NZmxZe
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*Link Headers*/
+.DKV0Md
+{
+        font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+/*Background*/
+.GyAeWb
+{
+        background-image: url(https://iili.io/HUTHzss.gif);
+        background-size: 22%;
+}
+
+/*Replace the Logo (code shamelessly taken from 'Classic Google Logo' by doubleclicker(`))*/
+/*Logo is an aspect ratio of 58:19, with the initial numbers of 116x38*/
+
+/*Search Results*/
+/*This Kills the Google*/
+div.logo a#logo img
+{
+        display: none !important;
+}
+
+/*Override with koish*/
+a#logo
+{
+        width: 116px !important;
+        height: 38px !important;
+        max-width: 160px !important;
+        min-width: 120px !important;
+        max-height: 48px !important;
+        min-height: 64px !important;
+        background-image: url(https://iili.io/HUOABiN.png) !important;
+        background-position: 0px 10px !important;
+        background-size: 116px 38px !important;
+        background-repeat: no-repeat !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+}
+
+/*Images Page*/
+/*This Kills the Google*/
+svg.TYpZOd
+{
+        display: none !important;
+}
+
+/*Override with koish*/
+a.F1hUFe.jbTlie
+{
+        width: 116px !important;
+        height: 38px !important;
+        max-width: 160px !important;
+        min-width: 120px !important;
+        max-height: 48px !important;
+        min-height: 64px !important;
+        background-image: url(https://iili.io/HUOABiN.png) !important;
+        background-position: 0px 10px !important;
+        background-size: 116px 38px !important;
+        background-repeat: no-repeat !important;
+        margin-left: 40px !important;
+        margin-top: -2px !important;
+}
+
+/*Videos Page*/
+/*This Kills the Google*/
+div.KsfAV a#logo img
+{
+        display: none !important;
+        margin-left: 40px !important;
+        margin-top: -2px !important;
+}
+
+/*Homepage*/
+/*Override with koish*/
+img.lnXdpd
+{
+        width: 0px !important;
+        height: 0px !important;
+        padding-top: 200px !important;
+        padding-left: 450px !important;
+        background: url(https://iili.io/HUOABiN.png) no-repeat center !important;
+        background-size: 272px 92px !important;
+        background-repeat: no-repeat !important;
+        position: relative !important;
+        overflow: visible !important;
+        top: -50px !important;
+}
+
+}

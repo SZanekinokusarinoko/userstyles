@@ -1,24 +1,23 @@
 /* ==UserStyle==
 @name           Capynuity
-@namespace      https://userstyles.world/user/SZanekinokusarinoko
-@version        2023.05.03
+@namespace      https://github.com/SZanekinokusarinoko/userstyles
+@version        2023.05.22
 @license        CC BY-SA 2.0
 @description    Edgenuity, with a heavy dose of Capybaras.
 @author         SZ姉貴の鎖鋸
 @preprocessor   default
 ==/UserStyle== */
-
 @-moz-document domain("edgenuity.com") {
-        
+  
 /*Import Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Golos+Text:wght@400;700&display=swap');
 
 /*
  * Text
  */
  
-html, body, input {
+html, body, input
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
 	background-image: url(https://iili.io/HWwP61j.jpg);
 	background-position: center fixed;
@@ -27,27 +26,32 @@ html, body, input {
 	height: auto;
 }
 
-#activity-title, #activity-status {
-	color: #B2C8D9;
+#activity-title, #activity-status
+{
+	color: #b2c8d9;
 }
 
-.mainhead, .mainhead a, .course-grade-percent, .course-grade-text, .btn:not(:disabled):not(.disabled) {
+.mainhead, .mainhead a, .course-grade-percent, .course-grade-text, .btn:not(:disabled):not(.disabled)
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
 	font-size: 10pt;
 }
 
-h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link {
+h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
 	font-size: 11pt;
 	color: black;
 }
 
-.answer-choice-label, label.answer-choice-label, p, textarea, .QuestionTextArea, textarea.disabled, element.style, span {
+.answer-choice-label, label.answer-choice-label, p, textarea, .QuestionTextArea, textarea.disabled, element.style, span
+{
 	font-family:  'Atkinson Hyperlegible', 'Golos Text', system-ui, sans-serif;
 	font-size: 12pt;
 }
 
-div {
+div
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
 	font-size: 11pt;
 }
@@ -56,65 +60,77 @@ div {
  * GUI
  */
  
-.mainhead, .mainhead a, .navbar.edgenuity {
-	background-color: #908E88;
+.mainhead, .mainhead a, .navbar.edgenuity
+{
+	background-color: #908e88;
 	color: #252632;
 	opacity: 87%
 }
 
-em {
+em
+{
 	color: black;
 }
 
-.Toolbar .FramesList li.FrameCurrent a {
-	background-color: #B2A892;
+.Toolbar .FramesList li.FrameCurrent a
+{
+	background-color: #b2a892;
 	color: #172026;
 }
 
-.home-page-background {
+.home-page-background
+{
 	background: url(https://iili.io/HWwP4qb.jpg);
 	background-position: center fixed;
-        background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 	width: auto;
 	height: auto;
 }
 
-.footer li, .footer p {
+.footer li, .footer p
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
 }
 
-#lesson-title {
-	color:#A8BDCD;
+#lesson-title
+{
+	color:#a8bdcd;
 }
 
-.overlay-background, .av-container, .overlay-container, .overlay-body {
-	background-color: #324C5E;
-	color: #2E2E2E;
+.overlay-background, .av-container, .overlay-container, .overlay-body
+{
+	background-color: #324c5e;
+	color: #2e2e2e;
 	border-radius: 12px;
 }
 
-.overlay-description {
+.overlay-description
+{
 	color: #9FB4BE;
 }
 
-.mainfoot {
-	background-color: #9FB4BE;
-	color: #513F34;
+.mainfoot
+{
+	background-color: #9fb4be;
+	color: #513f34;
 	opacity: 87%;
 }
 
-thspan {
+thspan
+{
 	color: #262626;
 }
 
-.question-container, .content, #frameArea, .card, .sle-card.card, .course-cards .card {
-	background-color: #B2A892;
+.question-container, .content, #frameArea, .card, .sle-card.card, .course-cards .card
+{
+	background-color: #b2a892;
 	color: #172026;
 }
 
-.bottom-tray.gradient-Divider {
-	background-color: #B2A892;
+.bottom-tray.gradient-Divider
+{
+	background-color: #b2a892;
 	color: #172026;
 }
 
@@ -122,35 +138,37 @@ thspan {
  * Login Page
  */
  
-.css-1chghgk, .loginLinesColor, .modernWelcomeBackground {
+.css-1chghgk, .loginLinesColor, .modernWelcomeBackground
+{
 	display: none;
 }
 
-.css-1nd7l03, .css-59bg5g, h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link {
+.css-1nd7l03, .css-59bg5g, h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
-	color: #DBD8CE;
+	color: #dbd8ce;
 }
 
-.css-o4qvae, .css-18zhmu4 {
+.css-o4qvae, .css-18zhmu4
+{
 	font-family: 'Atkinson Hyperlegible', 'Golos Text', system-ui, sans-serif;
 	font-size: 12pt;
 }
 
-.css-a9csq5 {
-	background-color: #FFF0D1;
+.css-a9csq5
+{
+	background-color: #fff0d1;
 	color: black;
 }
 
-.css-147aycu {
+.css-147aycu
+{
 	font-family: 'Golos Text', system-ui, sans-serif;
-	color: #DBD8CE
+	color: #dbd8ce;
 }
 
-/*
- * Buttons
- */
- 
-.overlay-attempt-button-start, .overlay-attempt-button-lock {
+.overlay-attempt-button-start, .overlay-attempt-button-lock
+{
 	/*Custom Icon Spritesheet Needed to Change Icons*/
 	background-image: url(https://iili.io/HW64A8P.png)
 }

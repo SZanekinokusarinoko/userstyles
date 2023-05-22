@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           KoishWorkspace
-@namespace      https://userstyles.world/user/SZanekinokusarinoko
-@version        2023.05.15
+@namespace      https://github.com/SZanekinokusarinoko/userstyles
+@version        2023.05.22
 @description    ᗜˬᗜ
 @author         SZ姉貴の鎖鋸
 @preprocessor   default
@@ -211,7 +211,7 @@ div, .ss6qqb .PyJv1b, .yKMVIe, .ss6qqb .wx62f, .WGvvNb, .iPukc .gadasb, .UwAaac,
         background-size: 22%;
 }
 
-/*Replace the Logo (code shamelessly taken from 'Classic Google Logo' by doubleclicker(`))*/
+/*Replace the Logo (code shamelessly taken from 'Classic Google Logo' by doubleclicker(https://userstyles.world/style/1535/classic-google-logo))*/
 /*Logo is an aspect ratio of 58:19, with the initial numbers of 116x38*/
 
 /*Search Results*/

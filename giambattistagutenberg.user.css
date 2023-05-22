@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           Project Gutenberg - Giambattista
+@namespace      https://github.com/SZanekinokusarinoko/userstyles
+@version        2023.05.19
+@description    “Plenty of white space and generous line spacing, and don't make the type size too miserly. Then you will be assured of a product fit for a king.”
+A theme desgigned to replicate the legendary typesetting of Giambattista Bodoni on all the HTML5 eBooks on the Project Gutenberg website. Its important to note that some books will have unique formatting, so not all will be exact.
+While multiple printings were studied, the biggest influence would be the 1807 print of In morte di Carlotta Melania Duchi Alfieri: versi e prose(https://archive.org/details/inmortedicarlot00bodogoog).
+@author         SZ姉貴の鎖鋸
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("gutenberg.org") {
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,600;0,800;1,600&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+p, [id*='id']
+{
+        font-family: 'Libre Bodoni', 'Bodoni MT', 'Georgia', serif;
+        font-size: 14pt;
+        text-align: justify;
+        text-justify: auto;
+        line-height: 1.6;
+        text-indent: 0!important;
+}
+
+h1, h2 
+{
+        font-family: 'Bodoni Moda', 'Bodoni MT', 'Georgia', serif;
+        font-weight: 800;
+}
+
+h3, h4
+{
+        font-family: 'Bodoni Moda', 'Bodoni MT', 'Georgia', serif;
+        font-weight: 600;
+}
+
+span.pagenum, #pg-header-heading, #pg-header div, #pg-footer div, pre
+{
+        font-family: 'Libre Bodoni', 'Bodoni MT', 'Georgia', serif;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.8;
+}
+
+a, a:link
+{
+        font-family: 'Bodoni Moda', 'Bodoni MT', 'Georgia', serif;
+        font-weight: 600;
+        color: #000f55;
+}
+
+a:visited
+{
+        font-family: 'Bodoni Moda', 'Bodoni MT', 'Georgia', serif;
+        color: #1E0055;
+}
+
+body, body > p, [id*='id']
+{
+        background-image: url(https://iili.io/HgqVLGV.jpg);
+        background-repeat: repeat;
+        margin-left: 22%!important;
+        margin-right: 22%!important;
+}
+
+}

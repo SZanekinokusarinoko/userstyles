@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           koishi fumo: D2L edition
-@namespace      https://userstyles.world/user/SZanekinokusarinoko
-@version        2023.5.4
+@namespace      https://github.com/SZanekinokusarinoko/userstyles
+@version        2023.05.22
 @license        CC BY-SA 2.0
 @description    ᗜˬᗜ
 @author         SZ姉貴の鎖鋸
@@ -12,26 +12,31 @@
 /*Import Fonts (Comic Neue in case Comic Sans isn't installed)*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-.d2l-tiles-container, #d2l_body, .d2l-body {
+.d2l-tiles-container, #d2l_body, .d2l-body
+{
         background-image: url(https://iili.io/HN4eDKB.jpg);
         background-position: center;
         background-size: 68%;
 }
 
-.d2l-typography, h1, h2, h3, h4, h5, h6, b, strong, b *, strong * {
+.d2l-typography, h1, h2, h3, h4, h5, h6, b, strong, b *, strong *
+{
         font-family: 'Comic Sans MS', 'Comic Neue', cursive;
         color: #E06B00;
 }
 
-.d2l-tile.d2l-widget, .daylight .d2l-grid-container, .d2l-le-disc-post, .d2l-datalist-style1 > .d2l-datalist .d2l-datalist-item-content {
+.d2l-tile.d2l-widget, .daylight .d2l-grid-container, .d2l-le-disc-post, .d2l-datalist-style1 > .d2l-datalist .d2l-datalist-item-content
+{
         opacity: 80%;
 }
 
-.d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep, .d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+.d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep, .d2l-twopanelselector-side.d2l-twopanelselector-side-sep
+{
         background-image: none;
 }
 
-html {
+html
+{
         /*Variable for side menu colors, thanks brightspace, very cool!*/
         --d2l-color-ferrite: #dfff4f; 
 }

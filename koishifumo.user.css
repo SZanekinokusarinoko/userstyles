@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           koishi fumo
-@namespace      https://userstyles.world/user/SZanekinokusarinoko
-@version        2023.04.25
+@namespace      https://github.com/SZanekinokusarinoko/userstyles
+@version        2023.05.22
 @license        CC BY-SA 2.0
 @description    ᗜˬᗜ
 @author         SZ姉貴の鎖鋸
@@ -16,75 +16,90 @@
  * General UI
  */
 
-.ic-app-header__logomark {
+.ic-app-header__logomark
+{
         background-image: url(https://iili.io/HO2l3ga.gif);
         background-size: cover;
 }
 
-.ic-sidebar-logo {
+.ic-sidebar-logo
+{
         background-image: url(https://iili.io/HO2NW2p.gif);
         background-size: contain;
 }
 
-body.modules .header-bar, body.modules .ig-handle, body.modules .ig-header-admin, body.modules .ig-header .reorder_module_link, body.modules .publish-icon {
+body.modules .header-bar, body.modules .ig-handle, body.modules .ig-header-admin, body.modules .ig-header .reorder_module_link, body.modules .publish-icon
+{
         display: none;
 }
 
-#breadcrumbs > ul {
+#breadcrumbs > ul
+{
         background: #90bdb2;
 }
 
-.with-left-side #left-side {
+.with-left-side #left-side
+{
         background-image: url(https://iili.io/HO2NW2p.gif);
         background-size: contain;
 }
 
-body.ic-framed-lti-tool .ic-Layout-contentMain {
+body.ic-framed-lti-tool .ic-Layout-contentMain
+{
         opacity: 90%;
 }
 
-.ic-app {
+.ic-app
+{
         background-image: url(https://iili.io/HN4eDKB.jpg);
         background-size: 75%;
         width: auto;
         height: auto;
 }
 
-.ic-app-header__main-navigation, .btn, .Button, .ui-button, .header-bar, .ic-DashboardCard__header_content {
+.ic-app-header__main-navigation, .btn, .Button, .ui-button, .header-bar, .ic-DashboardCard__header_content
+{
         background: #90bdb2;
 }
 
-.ic-DashboardCard__action-container {
+.ic-DashboardCard__action-container
+{
         background: #90bdb2;
         margin-top: 0;
 }
 
-.ic-Layout-contentMain {
+.ic-Layout-contentMain
+{
         background-color: #fdfdf6;
         color: #5f5f5f;
         opacity: 90%;
 }
 
-a {
+a
+{
         color: #1f5bff;
         font-family: 'Comic Sans MS', 'Comic Neue', 'ITC Bradley Hand', cursive;
 }
 
-p, li {
+p, li
+{
         color: #5f5f5f;
         font-family: 'Comic Sans MS', 'Comic Neue', 'ITC Bradley Hand', cursive;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
         font-family: 'Comic Sans MS', 'Comic Neue', 'ITC Bradley Hand', cursive;
 }
 
-.context_module .ig-row {
+.context_module .ig-row
+{
         background-color: #fdfdf6;
         color: #5f5f5f;
 }
         
-.ic-app-header__menu-list-link.ic-app-header__menu-list-link--nav-toggle {
+.ic-app-header__menu-list-link.ic-app-header__menu-list-link--nav-toggle
+{
         background-color: #90bdb2;
 }
 
@@ -92,106 +107,89 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
  * Code Editor/IDE
  */
 
-.ace_editor {
+.ace_editor
+{
         font: 13px/normal 'Space Mono', monospace;
         font-family: 'Space Mono', monospace;
 }
 
-.ace-xcode .ace_gutter {
+.ace-xcode .ace_gutter
+{
         background: #dadada;
         color: #5f5f5f;
 }
 
-.ace-xcode .ace_print-margin {
+.ace-xcode .ace_print-margin
+{
         width: 1px;
         background: #074226;
 }
 
-.ace-xcode {
+.ace-xcode
+{
         background-color: #fdfdf6;
         color: #5f5f5f;
 }
 
-.ace-xcode .ace_cursor {
+.ace-xcode .ace_cursor
+{
         color: #5f5f5f;
 }
 
-.ace-xcode .ace_marker-layer .ace_selection {
-        background: #B5D5FF;
-}
-
-.ace-xcode.ace_multiselect .ace_selection.ace_start {
-        box-shadow: 0 0 3px 0px #FFFFFF;
-}
-
-.ace-xcode .ace_marker-layer .ace_step {
-        background: rgb(198, 219, 174);
-}
-
-.ace-xcode .ace_marker-layer .ace_bracket {
-        margin: -1px 0 0 -1px;
-        border: 1px solid #BFBFBF;
-}
-
-.ace-xcode .ace_marker-layer .ace_active-line {
-        background: rgba(0, 0, 0, 0.071);
-}
-
-.ace-xcode .ace_gutter-active-line {
-        background-color: rgba(0, 0, 0, 0.071);
-}
-
-.ace-xcode .ace_marker-layer .ace_selected-word {
-        border: 1px solid #B5D5FF;
-}
-
 /*Syntax Highlighting taken from kuanyui's "moe-theme" for emacs*/
-.ace-xcode .ace_constant.ace_language, .ace-xcode .ace_meta, .ace-xcode .ace_variable.ace_language {
+.ace-xcode .ace_constant.ace_language, .ace-xcode .ace_meta, .ace-xcode .ace_variable.ace_language
+{
         color: #ffd700;
 }
 
-.ace-xcode .ace_keyword {
+.ace-xcode .ace_keyword
+{
         color: #a1db00;
 }
 
-.ace-xcode .ace_constant.ace_language {
+.ace-xcode .ace_constant.ace_language
+{
         color: #1f5bff;
 }
 
-.ace-xcode .ace_invisible {
-        color: #BFBFBF;
-}
-
-.ace-xcode .ace_constant.ace_character, .ace-xcode .ace_constant.ace_other {
+.ace-xcode .ace_constant.ace_character, .ace-xcode .ace_constant.ace_other
+{
         color: #1f5bff;
 }
 
-.ace-xcode .ace_constant.ace_numeric {
+.ace-xcode .ace_constant.ace_numeric
+{
         color: #1f5bff;
 }
 
-.ace-xcode .ace_entity.ace_other.ace_attribute-name, .ace-xcode .ace_support.ace_constant, .ace-xcode .ace_support.ace_function {
+.ace-xcode .ace_entity.ace_other.ace_attribute-name, .ace-xcode .ace_support.ace_constant, .ace-xcode .ace_support.ace_function
+{
         color: #c4a000;
 }
 
-.ace-xcode .ace_fold {
+.ace-xcode .ace_fold
+{
         background-color: #859900;
         border-color: #839496;
 }
 
-.ace-xcode .ace_entity.ace_name.ace_tag, .ace-xcode .ace_support.ace_class, .ace-xcode .ace_support.ace_type {
+.ace-xcode .ace_entity.ace_name.ace_tag, .ace-xcode .ace_support.ace_class, .ace-xcode .ace_support.ace_type
+{
         color: #18b2b2;
 }
 
-.ace-xcode .ace_storage {
+.ace-xcode .ace_storage
+{
         color: #18b2b2;
 }
 
-.ace-xcode .ace_string {
+.ace-xcode .ace_string
+{
         color: #ff1f8b;
 }
 
-.ace-xcode .ace_comment {
+.ace-xcode .ace_comment
+{
         color: #b2b2b2;
 }
 

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Luckynuity⭐
-@namespace      https://userstyles.world/user/SZanekinokusarinoko
-@version        2023.05.04
+@namespace      https://github.com/SZanekinokusarinoko/userstyles
+@version        2023.05.22
 @license        CC BY-SA 2.0
 @description    Edgenuity if it was a syringe of 2011 "kawaii~" injected directly into your veins. Characters are Konata Izumi and Kagami Hiiragi from Lucky Star.
 @author         SZ姉貴の鎖鋸
@@ -10,14 +10,14 @@
 @-moz-document domain("edgenuity.com") {
 
 /*Import Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=The+Girl+Next+Door&display=swap');
 
 /*
  * Text
  */
  
-html, body, input {
+html, body, input
+{
 	font-family: 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	background-image: url(https://iili.io/HVR0tMG.png);
         background-position: center ;
@@ -26,27 +26,32 @@ html, body, input {
 	height: auto;
 }
 
-#activity-title, #activity-status {
+#activity-title, #activity-status
+{
 	color: dimgrey;
 }
 
-.mainhead, .mainhead a, .course-grade-percent, .course-grade-text, .btn:not(:disabled):not(.disabled) {
+.mainhead, .mainhead a, .course-grade-percent, .course-grade-text, .btn:not(:disabled):not(.disabled)
+{
 	font-family: 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	font-size: 9pt;
 }
 
-h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link {
+h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link
+{
 	font-family: 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	font-size: 13pt;
 	color: black;
 }
 
-.answer-choice-label, label.answer-choice-label, p, textarea, .QuestionTextArea, textarea.disabled, element.style, span {
+.answer-choice-label, label.answer-choice-label, p, textarea, .QuestionTextArea, textarea.disabled, element.style, span
+{
 	font-family: 'The Girl Next Door', 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	font-size: 14pt;
 }
 
-div {
+div
+{
 	font-family: 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	font-size: 12pt;
 }
@@ -55,21 +60,25 @@ div {
  * GUI
  */
  
-.mainhead, .mainhead a, .navbar.edgenuity {
+.mainhead, .mainhead a, .navbar.edgenuity
+{
 	background-color: #6afc6d;
-	color: #B02767;
+	color: #b02767;
 	opacity: 48%
 }
 
-em {
+em
+{
 	color: black;
 }
 
-.Toolbar .FramesList li.FrameCurrent a {
+.Toolbar .FramesList li.FrameCurrent a
+{
 	background-color: #ffffef;
 }
 
-.home-page-background {
+.home-page-background
+{
 	background: url(https://iili.io/HVR0Zns.png);
         background-position:  center fixed;
 	background-size: cover;
@@ -77,41 +86,44 @@ em {
 	height: auto;
 }
 
-.footer li, .footer p {
-	font-family: system-ui, sans-serif;
-}
-
-#lesson-title {
+#lesson-title
+{
 	color: black;
 }
 
-.overlay-background, .av-container, .overlay-container, .overlay-body {
+.overlay-background, .av-container, .overlay-container, .overlay-body
+{
 	background-color: #9c83fd;
-	color: #2E2E2E;
+	color: #2e2e2e;
 	border-radius: 12px;
 	opacity: 88%;
 }
 
-.overlay-description {
+.overlay-description
+{
 	color: #ffffef;
 }
 
-.mainfoot {
+.mainfoot
+{
 	background-color: #fcc79d;
-	color: #4AA1B0;
+	color: #4aa1b0;
 	opacity: 48%;
 }
 
-thspan {
-	color: #4AA1B0;
+thspan
+{
+	color: #4aa1b0;
 }
 
-.question-container, .content, #frameArea, .card, .sle-card.card, .course-cards .card {
+.question-container, .content, #frameArea, .card, .sle-card.card, .course-cards .card
+{
 	background-color: #ffffef;
 	opacity: 95%;
 }
 
-.bottom-tray.gradient-Divider {
+.bottom-tray.gradient-Divider
+{
 	background-color: #ffffef;
 }
 
@@ -120,20 +132,24 @@ thspan {
  * Login Page
  */
  
-.css-1chghgk, .loginLinesColor, .modernWelcomeBackground {
+.css-1chghgk, .loginLinesColor, .modernWelcomeBackground
+{
 	display: none;
 }
 
-.css-1nd7l03, .css-59bg5g, h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link {
+.css-1nd7l03, .css-59bg5g, h1, .link-nostyle, .link-nostyle:focus, .link-nostyle:hover, .link-nostyle:link
+{
 	font-family: 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 }
 
-.css-o4qvae, .css-18zhmu4 {
+.css-o4qvae, .css-18zhmu4
+{
 	font-family: 'The Girl Next Door', 'Hachi Maru Pop', 'Bradley Hand ITC', 'Comic Sans MS', cursive;
 	font-size: 16pt;
 }
 
-.css-a9csq5 {
+.css-a9csq5
+{
 	background-color: #c6ebff;
 	color: black;
 }
@@ -142,47 +158,56 @@ thspan {
  * Buttons
  */
  
-a.plainbtn.alt.yellow.selected, button.plainbtn.alt.yellow.selected, .plainbtn.alt.yellow.selected, a.plainbtn.alt.yellow, button.plainbtn.alt.yellow, .plainbtn.alt.yellow {
+a.plainbtn.alt.yellow.selected, button.plainbtn.alt.yellow.selected, .plainbtn.alt.yellow.selected, a.plainbtn.alt.yellow, button.plainbtn.alt.yellow, .plainbtn.alt.yellow
+{
 	background-color: #6b667d;
 	border-radius: 50px;
 	border-color: #6b667d;
 }
 
-a.plainbtn.alt.icon, button.plainbtn.alt.icon, .plainbtn.alt.icon {
+a.plainbtn.alt.icon, button.plainbtn.alt.icon, .plainbtn.alt.icon
+{
 	border-radius: 50px;
 }
 
 
-.btn:not(:disabled):not(.disabled) {
+.btn:not(:disabled):not(.disabled)
+{
 	background-color: #c6ebff;
 	border: #c6ebff;
 	color: black;
 }
 
-.uibtn:hover, .uibtn.hover {
+.uibtn:hover, .uibtn.hover
+{
 	opacity: 100%;
 }
 
-.uibtn.uibtn-blue, .uibtn.uibtn-blue.disabled:hover, .uibtn.uibtn-blue.disabled:active {
+.uibtn.uibtn-blue, .uibtn.uibtn-blue.disabled:hover, .uibtn.uibtn-blue.disabled:active
+{
 	background-color: #5e4ab0;
 	color: #e2cfc1;
 }
 
-.uibtn.uibtn-arrow-next {
+.uibtn.uibtn-arrow-next
+{
 	background-color: #5e4ab0;
 	color: #e2cfc1;
 }
 
-.Toolbar .FramesList li.FrameCurrent a {
+.Toolbar .FramesList li.FrameCurrent a
+{
 	background-image: linear-gradient(#9c83fd, #dc77fe)
 }
 
-button, .overlay-previous, .overlay-next, .overlay-attempts, .overlay-attempt-clickable, .overlay-attempt, .overlay-attempt-header {
+button, .overlay-previous, .overlay-next, .overlay-attempts, .overlay-attempt-clickable, .overlay-attempt, .overlay-attempt-header
+{
 	background-color: #6c74e6;
 	border-radius: 33px;
 }
 
-.overlay-attempt-button-start, .overlay-attempt-button-lock {
+.overlay-attempt-button-start, .overlay-attempt-button-lock
+{
 	/*Custom Icon Spritesheet Needed to Change Icons*/
 	background-image: url(https://iili.io/HV44q3x.png)
 }
